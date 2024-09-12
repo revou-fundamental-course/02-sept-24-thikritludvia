@@ -1,0 +1,127 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+}
+
+.main-header {
+    text-align: center;
+    background-color: #4caf50;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.main-header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.main-header p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+}
+
+.selection-content {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.selection-btn {
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 0 20px;
+    font-size: 1.1em;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.bisque-color {
+    background-color: #ff8c00;
+}
+
+.aqua-color {
+    background-color: #00bcd4;
+}
+
+.selection-btn:hover {
+    opacity: 0.8;
+}
+
+.main-content {
+    padding: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.luas-segitiga-header,
+.keliling-segitiga-header {
+    padding: 20px;
+    background-color: #00bcd4;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.luas-segitiga-img,
+.keliling-segitiga-img {
+    height: 250px;
+    width: 250px;
+    margin: 10px auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.bold-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.luas-segitiga-form-header,
+.keliling-segitiga-form-header {
+    text-align: center;
+    color: #4caf50;
+}
+
+.input-wrapper {
+    margin: 15px 0;
+}
+
+input[type=number] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 12px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4caf50;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #388e3c;
+}

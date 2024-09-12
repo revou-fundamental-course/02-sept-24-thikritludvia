@@ -5,8 +5,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
 </head>
 <body>
-    
+    <header class="main-header">
+        <h1>Welcome to Katik</h1>
+        <p>Hai Sobat Selamat Datang di Katik :)</p>
+    </header>
+    <main>
+        <section class="selection-content">
+            <button id="show-luas" type="button" class="selection-btn bisque-color">Luas Segitiga</button>
+            <button id="show-keliling" type="button" class="selection-btn aqua-color">Keliling Segitiga</button>
+        </section>
+        <section class="main-content">
+            <aside id="luas-segitiga">
+                <header class="luas-segitiga-header">
+                    <h1>Luas Segitiga</h1>
+                </header>
+                <article class="luas-segitiga-content">
+                    <img class="luas-segitiga-img" src="https://rumuspintar.com/wp-content/uploads/2019/10/Rumus-Luas-Segitiga.jpg" alt="Rumus Luas Segitiga">
+                    <p>Rumus Luas Segitiga : </p>
+                    <p class="bold-text">L = ½ x a x t</p>
+                    <p>Keterangan :
+                        <ul>
+                            <li>L : luas segitiga</li>
+                            <li>a : ukuran alas segitiga</li>
+                            <li>t : ukuran tinggi segitiga</li>
+                        </ul>
+                    </p>
+                </article>
+            </aside>
+            
+            <form id="form-luas-segitiga">
+                <header>
+                    <h1 class="luas-segitiga-form-header">Hitung Luas Segitiga</h1>
+                </header>
+                <div class="input-wrapper">
+                    <label for="panjang-alas">Panjang Alas :</label>
+                    <input id="panjang-alas" type="number" />
+                </div>
+                <div class="input-wrapper">
+                    <label for="tinggi">Tinggi :</label>
+                    <input id="tinggi" type="number" />
+                </div>
+                <button type="button" id="hitungan-luas">Hitung</button>
+                <p id="result-luas">Hasil Perhitungan</p>
+            </form>
+
+            <aside id="keliling-segitiga">
+                <header class="keliling-segitiga-header">
+                    <h1>Keliling Segitiga</h1>
+                </header>
+                <article class="keliling-segitiga-content">
+                    <img class="keliling-segitiga-img" src="https://rumuspintar.com/wp-content/uploads/2019/10/Rumus-Keliling-Segitiga.jpg" alt="Rumus Keliling Segitiga">
+                    <p>Rumus Keliling Segitiga : </p>
+                    <p class="bold-text">K = a + b + c</p>
+                    <p>Keterangan :
+                        <ul>
+                            <li>a : sisi a</li>
+                            <li>b : sisi b</li>
+                            <li>c : sisi c</li>
+                        </ul>
+                    </p>
+                </article>
+            </aside>
+            
+            <form id="form-keliling-segitiga">
+                <header>
+                    <h1 class="keliling-segitiga-form-header">Hitung Keliling Segitiga</h1>
+                </header>
+                <div class="input-wrapper">
+                    <label for="sisi-a">Sisi a :</label>
+                    <input id="sisi-a" type="number" />
+                </div>
+                <div class="input-wrapper">
+                    <label for="sisi-b">Sisi b :</label>
+                    <input id="sisi-b" type="number" />
+                </div>
+                <div class="input-wrapper">
+                    <label for="sisi-c">Sisi c :</label>
+                    <input id="sisi-c" type="number" />
+                </div>
+                <button type="button" id="hitungan-keliling">Hitung</button>
+                <p id="result-keliling">Hasil Perhitungan</p>
+            </form>
+        </section>
+    </main>
 </body>
 </html>
